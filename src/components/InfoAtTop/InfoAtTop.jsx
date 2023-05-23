@@ -12,7 +12,7 @@ export const InfoAtTop = () => {
         <span className="info--signup-discount">
           Sign up for 10% off your first order:{" "}
         </span>
-        <a href="#" className="info--signup--link">
+        <a href="h" className="info--signup--link">
           Sign up
         </a>
       </div>
