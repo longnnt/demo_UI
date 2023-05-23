@@ -1,0 +1,53 @@
+.follow-us {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  padding: 0 225px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .follow-us {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .follow-us {
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
+.follow-us__card {
+  position: relative;
+}
+
+.follow-us__img {
+}
+
+.follow-us__icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media only screen and (max-width: 1920px) {
+  .follow-us {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .follow-us {
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .follow-us {
+    gap: 26px;
+  }
+}

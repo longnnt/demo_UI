@@ -1,0 +1,87 @@
+.top--trending__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.top--trending__text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top--trending__heading {
+  font-size: 36px;
+  line-height: 48.6px;
+}
+
+.top--trending__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding: 0 225px;
+}
+
+.top--trending__card {
+  position: relative;
+}
+
+.top--trending__card__badge {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.top--trending__card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.top--trending__card__name {
+  margin-bottom: 5px;
+}
+
+.top--trending__card__price {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.price--discount {
+  line-height: 19px;
+}
+
+.price {
+  line-height: 24px;
+}
+
+.btn--load-more {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 17px 64px;
+  border: 1px solid #dedede;
+  border-radius: 300px;
+  background-color: transparent;
+  max-width: fit-content;
+}
+
+@media only screen and (max-width: 1920px) {
+  .top--trending__list {
+    padding: 0 112px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top--trending__list {
+    padding: 0;
+  }
+}

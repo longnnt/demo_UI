@@ -1,0 +1,30 @@
+@import url(./general-sans.css);
+
+:root {
+  --red-color: #;
+  --default-fontsize: 14px;
+  --primary--text-color: #111111;
+  --secondary--text-color: #555555;
+  --border-color: #dedede;
+  --white-100: #ffffff;
+  --white-200: #f5f5f5;
+  --white-300: rgba(255, 255, 255, 0.2);
+  --green-100: #177983;
+  --brown-100: #9c6d3a;
+  --gray-100: #8d979e;
+  --gray-200: #ebebeb;
+  --bg-dark-100: #111111;
+  --bg-gray-100: #8d979e;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: var(--default-fontsize);
+  font-family: "GeneralSans-Regular";
+}
+
+.App {
+}

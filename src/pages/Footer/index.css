@@ -1,0 +1,133 @@
+.footer {
+  background-color: var(--white-200);
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 225px;
+  border-bottom: 1px solid var(--border-color);
+  padding: 100px 0;
+}
+
+.footer__contact {
+  margin-right: 161px;
+}
+
+.contact__icon {
+  margin-right: 30px;
+}
+
+.contact__info {
+  line-height: 19px;
+  margin-top: 29px;
+}
+
+.contact__icon {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 29px;
+}
+
+.service__heading,
+.service__item,
+.shop__heading,
+.shop__item,
+.new--letter__heading {
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: 19px;
+}
+
+.new--letter__heading,
+.shop__heading,
+.service__heading {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer__customer__service {
+  width: 210px;
+}
+
+.footer__shop-by__categories {
+  width: 210px;
+}
+
+.footer__new--letter {
+  width: 450px;
+}
+
+.new--letter__subcrible {
+  margin-top: 30px;
+}
+
+.subcrible__input {
+  width: 249px;
+  padding: 16px 20px;
+  border: 1px solid var(--border-color);
+  border-radius: 30px;
+  line-height: 18px;
+}
+.subcrible__input::placeholder {
+  color: var(--gray-200);
+}
+
+.subcrible__btn {
+  padding: 17px 40px;
+  margin-left: 9px;
+  color: var(--white-100);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  border: none;
+  background-color: var(--bg-dark-100);
+  border-radius: 30px;
+}
+
+.footer--extra__info {
+  display: flex;
+  margin: 0 225px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+}
+.lang-and__currency {
+  display: flex;
+}
+
+.footer__lang {
+  margin-right: 20px;
+}
+
+.footer__currency {
+}
+
+.footer--extra__middle {
+}
+
+.footer--extra__payment {
+}
+
+@media only screen and (max-width: 1920px) {
+  .footer__content {
+    margin: 0 225px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer__content {
+    margin: 0 30px;
+  }
+  .footer__contact {
+    margin-right: 0;
+  }
+
+  .footer--extra__info {
+    margin: 0 30px;
+  }
+}

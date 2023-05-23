@@ -1,0 +1,49 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 0;
+  font-size: 13px;
+  line-height: 18px;
+  margin: 0 30px;
+  line-height: 19px;
+}
+
+.phone {
+  margin-right: 25px;
+}
+
+.email {
+}
+
+.info--contact {
+}
+
+.info--signup {
+}
+
+.info--signup-discount {
+  color: var(--secondary--text-color);
+}
+
+.info--signup--link {
+  color: var(--primary--text-color);
+}
+
+.info--extra {
+  display: flex;
+}
+
+.store {
+}
+
+.lang {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.currency {
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}

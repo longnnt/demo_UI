@@ -1,0 +1,104 @@
+.bgContent {
+  max-width: 100%;
+}
+.slider {
+  position: relative;
+}
+
+.slider__content {
+  color: var(--white-100);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content__text {
+  margin-bottom: 50px;
+}
+
+.content__slogan {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: unset;
+}
+
+.content__heading {
+  font-size: 90px;
+  font-weight: 600;
+  line-height: 122px;
+  padding: 10px 0;
+  margin: unset;
+}
+
+.content__discount {
+  font-size: 16px;
+  line-height: 20px;
+  margin: unset;
+}
+
+.content__btn {
+  padding: 18.5px 53.5px;
+  border: unset;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  background: var(--white-100);
+}
+
+.arrow {
+  width: 60px;
+  height: 60px;
+  background-color: var(--bg-gray-100);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+}
+
+.left--arrow {
+  left: 30px;
+}
+
+.right--arrow {
+  right: 30px;
+  background-color: var(--bg-dark-100);
+}
+
+.slider--radio {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+}
+
+.radio {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--white-300);
+}
+
+@media only screen and (max-width: 1024px) {
+  .arrow {
+    top: 42%;
+  }
+  .content__heading {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content__heading {
+    font-size: 40px;
+    padding: unset;
+  }
+}

@@ -1,0 +1,13 @@
+.navbar {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  align-items: center;
+  position: relative;
+}
+
+.navbar--item-text {
+  font-size: 13px;
+  text-transform: uppercase;
+}
