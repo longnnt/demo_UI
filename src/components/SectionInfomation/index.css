@@ -2,23 +2,9 @@
   display: flex;
   justify-content: space-between;
   text-align: center;
-  padding: 100px;
+  padding: 100px 0;
   border-bottom: 1px solid var(--border-color);
   margin: 0 225px;
-}
-
-@media only screen and (max-width: 1920px) {
-  .section--info {
-    padding: 100px 0;
-    margin: 0 112px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .section--info {
-    padding: 100px 0;
-    margin: 0 112px;
-  }
 }
 
 .section--item {
@@ -37,4 +23,10 @@
 }
 
 .section--item__info {
+}
+
+@media only screen and (max-width: 1200px) {
+  .section--info {
+    margin: 0;
+  }
 }

@@ -41,25 +41,11 @@
 .top--categories__list {
   display: flex;
   justify-content: space-between;
-  padding: 0 225px;
 }
 
-@media only screen and (max-width: 1920px) {
-  .top--categories__list {
-    padding: 0 112px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1200px) {
   .top--categories__list {
     padding: 0;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .top--categories__list {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 22px;
+    justify-content: space-evenly;
   }
 }

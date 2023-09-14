@@ -6,7 +6,7 @@ export const InfoAtTop = () => {
     <div className="info">
       <div className="info--contact">
         <span className="phone">+222-1800-2628</span>
-        <span className="email">blueskytechcompany@gmail.com</span>
+        <span className="email">testtechcompany@gmail.com</span>
       </div>
       <div className="info--signup">
         <span className="info--signup-discount">

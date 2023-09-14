@@ -1,22 +1,7 @@
 .follow-us {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 100px 0;
-  padding: 0 225px;
-}
-
-@media only screen and (max-width: 1920px) {
-  .follow-us {
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .follow-us {
-    justify-content: flex-start;
-    gap: 30px;
-    flex-wrap: wrap;
-  }
 }
 
 .follow-us__card {
@@ -32,22 +17,9 @@
   right: 10px;
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 1200px) {
   .follow-us {
-    padding: 0;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .follow-us {
-    justify-content: flex-start;
-    gap: 30px;
+    justify-content: space-between;
     flex-wrap: wrap;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .follow-us {
-    gap: 26px;
   }
 }

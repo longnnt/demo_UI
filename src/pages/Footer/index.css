@@ -5,13 +5,11 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  margin: 0 225px;
   border-bottom: 1px solid var(--border-color);
-  padding: 100px 0;
+  padding: 100px 30px;
 }
 
 .footer__contact {
-  margin-right: 161px;
 }
 
 .contact__icon {
@@ -91,10 +89,9 @@
 
 .footer--extra__info {
   display: flex;
-  margin: 0 225px;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 0;
+  padding: 35px 35px;
 }
 .lang-and__currency {
   display: flex;
@@ -113,21 +110,11 @@
 .footer--extra__payment {
 }
 
-@media only screen and (max-width: 1920px) {
-  .footer__content {
-    margin: 0 225px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .footer__content {
-    margin: 0 30px;
-  }
+@media only screen and (max-width: 1200px) {
   .footer__contact {
-    margin-right: 0;
+    margin-right: 44px;
   }
-
-  .footer--extra__info {
-    margin: 0 30px;
+  .subcrible__btn {
+    padding: 17px 20px;
   }
 }

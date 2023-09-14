@@ -20,7 +20,8 @@
   position: absolute;
   background: var(--white-100);
   border-radius: 20px;
-  top: 164px;
+  top: 50%;
+  transform: translateY(-50%);
   right: 225px;
 }
 
@@ -52,36 +53,4 @@
   padding: 17px 52px;
   font-weight: 600;
   border: none;
-}
-
-@media only screen and (max-width: 1920px) {
-  .banner {
-    align-items: center;
-  }
-
-  .banner--content {
-    top: auto;
-    right: 88px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .banner--content {
-    padding: 14px;
-    width: unset;
-    height: unset;
-    right: 18px;
-  }
-
-  .banner--content__heading {
-    margin-bottom: 10px;
-  }
-
-  .banner--content__info {
-    margin-bottom: 10px;
-    height: 46px;
-    width: 228px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  }
 }
